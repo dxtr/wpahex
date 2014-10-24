@@ -1,6 +1,6 @@
 CC=clang
 CFLAGS=-Wall -Os -pipe
-LDFLAGS=-lcrypto
+LDFLAGS=-s -lcrypto
 .SUFFIXES: .c .o
 .c.o:
 	${CC} ${CFLAGS} -c $<
