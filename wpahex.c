@@ -42,7 +42,7 @@ main(int argc, char **argv)
 	}
 
 	for (int i = 0; i < sizeof(output); i++) {
-		printf("%x", output[i]);
+		printf("%02x", output[i]);
 	}
 
 	printf("\n");
